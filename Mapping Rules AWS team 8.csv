@@ -1,0 +1,45 @@
+IT Tower;Service Family;Service Type;Service Sub Type;Service Usage Type;Product Code;Usage Type; [lineItem/Operation];lineItem/LineItemDescription
+AI/ML;SageMaker;Notebook;Instances;Notebook Usage;AmazonSageMaker;%Notebk:%;;
+AI/ML;SageMaker;Training;Model Training;Training Usage;AmazonSageMaker;%Train:%;;
+AI/ML;SageMaker;Processing;Run Instances;Processing;AmazonSageMaker;%Processing%;RunInstance;
+AI/ML;SageMaker;Transformation;Data Transformation;Transformation;AmazonSageMaker;%Tsform%;;
+AI/ML;SageMaker;Model Deployment;Endpoint Support;Support;AmazonSageMaker;%TrSpt%;;
+AI/ML;SageMaker;Hosting;Endpoint Hosting;Hosting;AmazonSageMaker;%Host:%;;
+AI/ML;SageMaker;Data Labeling;Labeled Objects;Labeled Data;AmazonSageMaker;%LabeledObject;;
+Compute;Containers;Elastic Kubernetes Service (EKS);Taxation;Tax;AmazonEKS;;;Tax%
+Compute;Containers;Fargate;vCPU Usage;vCPU Hours;AmazonEKS;%Fargate-vCPU-Hours%;;
+Compute;Containers;Fargate;Memory Usage;GB Hours;AmazonEKS;%Fargate-GB-Hours;;
+Compute;Containers;EKS;Per Cluster;Hours;AmazonEKS;%AmazonEKS-Hours:perCluster;;
+Databases;In-Memory Database;DAX;Node Usage;Node Hours;AmazonDAX;%NodeUsage%;;
+Databases;NoSQL Database;DynamoDB;Taxation;Tax;AmazonDynamoDB;;;Tax%
+Databases;NoSQL Database;DynamoDB;Write Capacity;Capacity Hours;AmazonDynamoDB;%WriteCapacityUnit-Hrs;;
+Databases;NoSQL Database;DynamoDB;Read Capacity;Capacity Hours;AmazonDynamoDB;%ReadCapacityUnit-Hrs;;
+Databases;NoSQL Database;DynamoDB;Restore Operations;Data Size;AmazonDynamoDB;%RestoreDataSize-Bytes;;
+Databases;NoSQL Database;DynamoDB Streams;Requests;Requests;AmazonDynamoDB;%Streams-Requests;;
+Databases;NoSQL Database;DynamoDB;Write Requests;Request Units;AmazonDynamoDB;%WriteRequestUnits;;
+Databases;NoSQL Database;DynamoDB;Read Requests;Request Units;AmazonDynamoDB;%ReadRequestUnits;;
+Development;Application Hosting;Amplify;Build Duration;Build Time;AWSAmplify;%BuildDuration;;
+Networking;Data Transfer;Regional Data Transfer;Inbound/Outbound Transfer;Regional Bytes;AmazonFSx;%DataTransfer-Regional-Bytes;CreateFileSystem:Windows;
+Networking;Application Hosting;Amplify;Data Transfer Out;Data Transfer;AWSAmplify;%DataTransferOut;;
+Security;Threat Detection;GuardDuty;Taxation;Tax;AmazonGuardDuty;;;Tax%
+Security;Threat Detection;Event Analysis;Free Tier;Events Analyzed;AmazonGuardDuty;%FreeEventsAnalyzed;;
+Security;Threat Detection;Event Analysis;Paid Tier;Events Analyzed;AmazonGuardDuty;%PaidEventsAnalyzed;;
+Security;Threat Detection;Event Analysis;Free Tier (Bytes);Events Analyzed;AmazonGuardDuty;%FreeEventsAnalyzed-Bytes;;
+Security;Threat Detection;Event Analysis;Paid Tier (Bytes);Events Analyzed;AmazonGuardDuty;%PaidEventsAnalyzed-Bytes;;
+Security;Vulnerability Management;Inspector;Agent Assessments;Assessments;AmazonInspector;%agent-assessments%;;
+Security;Vulnerability Management;Inspector;Network Assessments;Assessments;AmazonInspector;%network-assessments%;;
+Storage;File Storage;Managed File System;Windows File Server;Throughput Capacity;AmazonFSx;%ThroughputCapacity;CreateFileSystem:Windows;
+Storage;File Storage;Managed File System;Windows File Server;Storage;AmazonFSx;%Storage;CreateFileSystem:Windows;
+Storage;File Storage;Managed File System;Windows File Server;Backup Usage;AmazonFSx;%BackupUsage;CreateFileSystem:Windows;
+Storage;Archive Storage;Glacier Storage;Taxation;Tax;AmazonGlacier;;;Tax%
+Storage;Archive Storage;Glacier Storage;Data Stored;Bytes;AmazonGlacier;%Bytes;;
+Storage;Archive Storage;Provisioned Storage;Capacity Units;Provisioned Capacity;AmazonGlacier;%ProvisionedCapacityUnit;;
+Storage;Archive Storage;Timed Storage;Byte Hours;Timed Byte Hours;AmazonGlacier;%TimedStorage-ByteHrs;;
+Storage;Archive Storage;Request Handling;Tier 3 Requests;Requests;AmazonGlacier;%Requests-Tier3;;
+Storage;Archive Storage;Request Handling;Tier 1 Requests;Requests;AmazonGlacier;%Requests-Tier1;;
+Storage;Archive Storage;Early Deletion Penalty;Glacier Data;Early Delete;AmazonGlacier;%EarlyDelete%;;
+Storage;Backup;Cold Storage;Early Deletion;Penalty;AWSBackup;%EarlyDelete-Cold%;;
+Storage;Backup;Cold Storage;Restore;Restore Operations;AWSBackup;%Restore-Cold%;;
+Storage;Backup;Cold Storage;Storage;Storage;AWSBackup;%ColdStorage%;;
+Storage;Backup;Warm Storage;Restore;Restore Operations;AWSBackup;%Restore-Warm%;;
+Storage;Backup;Warm Storage;Storage;Storage;AWSBackup;%WarmStorage%;;
